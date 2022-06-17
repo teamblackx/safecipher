@@ -27,7 +27,7 @@ def encrypt():
     with open(keyfile,'wb') as filekey:
         filekey.write(key)
 #Reading Kkey String From File and SaveKey Into File  
-#C:\Users\Abdullah\Desktop\Main Encryption {roogram\TKfont.py
+
     with open(keyfile,"rb") as filekey:
         keyData=filekey.read()
         print(keyData.decode())
